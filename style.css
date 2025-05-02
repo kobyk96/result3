@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.button {
+  border: 1px solid black;
+  width: 100px;
+  padding: 15px 0px;
+  text-align: center;
+  margin: 100px;
+}
+.button:hover {
+  cursor: pointer;
+  color: white;
+  background-color: blue;
+}
+
+.container-1 {
+  text-align: center;
+  margin-top: 50px;
+  /* border: 1px solid black; */
+}
+
+.container-1 button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: blue;
+}
+.container-1 button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.container-2 {
+  width: 40%;
+  /* border: 1px solid black; */
+  margin: 50px auto;
+}
+
+.container-2 input {
+  width: 100%;
+}
+
+.container-3 {
+  text-align: center;
+  width: 200px;
+}
+
+.container-4 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.container-4 select {
+  width: 100%;
+}
+
+.container-5 {
+  border: 1px solid black;
+  width: 40%;
+  margin: auto;
+  padding: 25px;
+}
+
+.login {
+  width: 100%;
+  /* border: 1px solid black; */
+  text-align: center;
+  /* padding: 15px 0px; */
+}
+
+.login input {
+  border: 1px solid black;
+  width: 100%;
+  outline: none;
+  padding: 10px 0px;
+  padding-left: 5px;
+}
+.login textarea {
+  width: 100%;
+  resize: none;
+  height: 200px;
+  outline: none;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+.login button {
+  width: 40%;
+  padding: 10px 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(243, 232, 232);
+}
+
+.login button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.login .password {
+  margin: 15px 0px;
+}
+
+.login .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.login .check input {
+  width: 20px;
+}
+.login .check p {
+  margin-left: 5px;
+}
+
+.d-none {
+  display: none;
+}
